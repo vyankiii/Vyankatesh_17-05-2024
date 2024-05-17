@@ -1,0 +1,23 @@
+Normal class => NC
+
+Abstract class => AC
+
+Interface class => IC
+
+to do inheritance in java, we use extends and implements keywords
+
+**when to use extends keywords and implements keywords,
+
+		super/parent/base class				keyword				sub/child/derived class
+	
+				NC 							extends		 				NC
+				AC							extends						NC
+				IC						   implements					NC
+ 				NC							extends						AC
+ 				AC							extends                     AC
+ 				IC						   implements					AC
+ 		
+			 	NC						   Not possible*				IC
+			 	AC						   Not possible*				IC
+			 	
+			 	IC 							extends						IC                                              
